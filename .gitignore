@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# ArcGIS / geoprocessing temporary files
+*.lock
+*.sr.lock
+*.tmp
+scratch/
+logs/
+Working/
+
+# Generated GIS data
+*.gdb/
+*.sde
+*.tif
+*.tiff
+*.img
+*.bil
+*.hdr
+*.aux.xml
+*.ovr
+*.vrt
+
+# Local configuration / run artifacts
+project_config_*.json
+*_county_config.json
+run_config.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
